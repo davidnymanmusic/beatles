@@ -1,0 +1,156 @@
+h1 {
+  font-family: "Gill Sans";
+  letter-spacing: -2px;
+  text-align: center;
+  font-size: 2em;
+  animation:BackgroundAnimated 20s linear infinite;
+  background:url('grainy.jpg');
+  background-repeat:repeat-x;
+  background-position:0 0;
+  text-transform:uppercase;
+  color:transparent;
+ -webkit-font-smoothing:antialiased;
+ -webkit-background-clip:text;
+ -moz-background-clip:text;
+ background-clip:text;
+ -webkit-text-fill-color:transparent;
+ margin:0;
+ margin-bottom: 18px;
+ margin-top: 120px;
+ opacity: .9;
+}
+h1:hover{
+
+  }
+
+#btn {
+  display: block;
+	color: #ddd165;
+	background-color: transparent;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 33px;
+	letter-spacing: -1px;
+	padding: 10px 30px;
+	border-radius: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 3px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-bottom-width: 3px;
+  margin: auto;
+  margin-bottom: 55px;
+  transition: 1.3s;
+}
+
+#btn:hover {
+		/*border-color: rgba(232, 235, 122, 0.1);*/
+    transform: scale(1.3);
+    text-decoration: underline;
+    text-decoration-color: rgba(240, 241, 217, 0.88);
+    text-underline-position: below;
+    transition: .7s;
+	}
+
+body {
+
+  animation:BackgroundAnimated 16s linear infinite;
+  background:url('grainy_background.jpg');
+}
+
+img {
+  border-radius: 5px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 200px;
+}
+
+.fabFour {
+  line-height: 0;
+  display: block;
+  width: auto;
+  column-count: 4;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  width: 100%;
+  transform: scale(1);
+  transition: .7s;
+}
+
+#Paul {
+transition: .6s;
+}
+
+#Paul:hover {
+opacity: .6;
+border: 3px;
+border-radius: 18em;
+transform: scale(.7);
+transition: .5s;
+}
+#PaulHover {
+opacity: .6;
+border: 3px;
+border-radius: 18em;
+transform: scale(.7);
+transition: .5s;
+}
+
+#John {
+transition: .6s;
+}
+
+#John:hover {
+  opacity: .6;
+  border: 3px;
+  border-radius: 18em;
+  transform: scale(.7);
+  transition: .5s;
+}
+
+#George {
+transition: .6s;
+}
+
+#George:hover {
+  opacity: .6;
+  border: 3px;
+  border-radius: 18em;
+  transform: scale(.7);
+  transition: .5s;
+}
+
+#Ringo {
+transition: .6s;
+}
+
+#Ringo:hover {
+  opacity: .6;
+  border: 3px;
+  border-radius: 18em;
+  transform: scale(.7);
+  transition: .5s;
+}
+footer {
+  font-family: "Gill Sans";
+  letter-spacing: -1px;
+  text-align: center;
+  margin: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #fcffee;
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes BackgroundAnimated {
+    from {
+        background-position:0 0
+    }
+    to {
+        background-position:100% 0
+    }
