@@ -8,18 +8,18 @@ var george = document.querySelector("#George")
 var ringo = document.querySelector("#Ringo")
 
 paul.addEventListener("click", function(){
-   document.body.classList.toggle("#PaulHover")
-    console.log("Paul is Dead");
+paul.classList.toggle("hover");
+      console.log("Paul is Dead");
 });
 john.addEventListener("click", function(){
-   document.body.classList.toggle("#PaulHover")
+john.classList.toggle("hover");
     console.log("John is Dead");
 });
 george.addEventListener("click", function(){
-   document.body.classList.toggle("#PaulHover")
+george.classList.toggle("hover");
     console.log("George is Dead");
 });
 ringo.addEventListener("click", function(){
-   document.body.classList.toggle("#PaulHover")
+ringo.classList.toggle("hover");
     console.log("Ringo is Dead");
 });
