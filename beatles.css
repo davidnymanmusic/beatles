@@ -90,13 +90,7 @@ border-radius: 18em;
 transform: scale(.7);
 transition: .5s;
 }
-.hover {
-opacity: .6;
-border: 3px;
-border-radius: 18em;
-transform: scale(.7);
-transition: .5s;
-}
+
 
 #John {
 transition: .6s;
@@ -133,6 +127,18 @@ transition: .6s;
   transform: scale(.7);
   transition: .5s;
 }
+.hover {
+opacity: .6;
+border: 3px;
+border-radius: 18em;
+transform: scale(.7);
+transition: .5s;
+}
+
+.getBack {
+border-radius: 3px;
+}
+
 footer {
   font-family: "Gill Sans";
   letter-spacing: -1px;

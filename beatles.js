@@ -23,3 +23,16 @@ ringo.addEventListener("click", function(){
 ringo.classList.toggle("hover");
     console.log("Ringo is Dead");
 });
+
+paul.addEventListener("mouseover", function(){
+paul.classList.add("getBack");
+});
+john.addEventListener("mouseover", function(){
+john.classList.add("getBack");
+});
+george.addEventListener("mouseover", function(){
+george.classList.add("getBack");
+});
+ringo.addEventListener("mouseover", function(){
+ringo.classList.add("getBack");
+});
